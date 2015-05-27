@@ -1,3 +1,4 @@
+.composer/
 .vim/
 .CFUserTextEncoding
 .DS_Store
@@ -18,3 +19,4 @@ Public/
 commonwealthapparel/
 dotfiles/
 .lesshst
+.zsh_history
