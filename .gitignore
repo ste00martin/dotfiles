@@ -1,22 +1,10 @@
-.composer/
-.vim/
-.CFUserTextEncoding
-.DS_Store
-.Trash/
-.bash_history
-.dropbox/
-.ssh/
-.viminfo
-Applications/
-Desktop/
-Documents/
-Downloads/
-Library/
-Movies/
-Music/
-Pictures/
-Public/
-commonwealthapparel/
-dotfiles/
-.lesshst
-.zsh_history
+# ignore everything
+*
+
+# but not these files
+
+!.README.me
+!.gitignore
+!.zshrc
+!.vimrc
+

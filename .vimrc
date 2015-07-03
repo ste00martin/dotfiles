@@ -15,7 +15,9 @@ Plugin 'gmarik/Vundle.vim'
 
 
 Plugin 'tpope/vim-fugitive'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 " Plugin 'ervandew/supertab'
 
@@ -39,9 +41,18 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 
+set expandtab
 set tabstop=4
 set shiftwidth=4
-set expandtab
+set autoindent
+set smartindent
+"set bg=dark
+
+set paste
+vmap <C-x> :!pbcopy<CR>  
+vmap <C-c> :w !pbcopy<CR><CR> 
+
+
 
 " For airline
 set laststatus=2
