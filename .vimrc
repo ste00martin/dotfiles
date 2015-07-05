@@ -19,6 +19,10 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
+Plugin 'Valloric/YouCompleteMe'
+
+
+Plugin 'fatih/vim-go'
 " Plugin 'ervandew/supertab'
 
 
@@ -47,6 +51,8 @@ set shiftwidth=4
 set autoindent
 set smartindent
 "set bg=dark
+
+
 
 set paste
 vmap <C-x> :!pbcopy<CR>  
