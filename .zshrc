@@ -1,7 +1,12 @@
 
-#export GOROOT=/usr/local/bin/go
+export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+export PATH="/usr/local/sbin:$PATH"
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+
 
 # Prompt
 PROMPT='%{$fg_bold[white]%} %n:%c> %{$reset_color%}'
@@ -16,14 +21,22 @@ setopt prompt_subst
 setopt menucomplete
 
 ## # Load completions for Ruby, Git, etc.
-
 autoload compinit
 compinit
 
 
 ## Shortcuts
-alias gotogo="cd ~/.go/src/github.com"
-alias gotorepos="cd ~/repos/"
+alias gogo="cd ~/.go/src/github.com"
+alias gorepos="cd ~/repos/"
 alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
 alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias gomove="cd ~/repos/moveloot_server/"
 
+setopt APPEND_HISTORY
+
+
+
+function parse_git_branch {
+  git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
+}
+RPROMPT='%{$fg_bold[white]%}$(parse_git_branch)%{$reset_color%}'

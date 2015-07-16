@@ -3,3 +3,5 @@
 [user]
 	name = Stefan Martin
 	email = stefanmartin61@gmail.com
+[color]
+	ui = true
