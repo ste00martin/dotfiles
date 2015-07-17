@@ -5,3 +5,5 @@
 	email = stefanmartin61@gmail.com
 [color]
 	ui = true
+[core]
+	editor = vim
