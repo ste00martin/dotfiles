@@ -2,7 +2,8 @@
 *
 
 # but not these files
-!.setup/
+!.setup
+!.setup/*
 !.README.me
 !.gitignore
 !.zshrc
