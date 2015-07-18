@@ -2,8 +2,10 @@
 	default = simple
 [user]
 	name = Stefan Martin
-	email = stefanmartin61@gmail.com
+	email = ste00martin@gmail.com
 [color]
 	ui = true
 [core]
 	editor = vim
+[github]
+	user = ste00martin

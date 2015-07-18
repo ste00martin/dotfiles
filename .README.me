@@ -1,4 +1,31 @@
 # to setup on a new system:
 
+# Vundle
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim # setup vundle
+vim +PluginInstall +qall # install plugins from command line
 
-# TODO
+# install homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install caskroom/cask/brew-cask
+
+
+# put zsh as default command shell
+brew install zsh
+chsh -s /usr/local/bin/zsh # sets zsh as default
+
+
+
+# homebrew must haves
+brew install redis
+
+# Must Have GUIs
+brew cask install google-chrome
+brew cask install sonos
+brew cask install iterm2
+brew cask install spectacle
+
+
+brew cask install slack
+brew cask install postgresql
+
+
