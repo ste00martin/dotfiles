@@ -6,17 +6,35 @@ vim +PluginInstall +qall # install plugins from command line
 
 # install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+# homebrew must haves
 brew install caskroom/cask/brew-cask
+brew install cmake
+brew install zsh
+brew install redis
+brew install git
+brew install ruby
+brew install qt
+brew install gpg
+
+# Setup ruby
+gem install bundler
+
+
 
 
 # put zsh as default command shell
-brew install zsh
+echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh # sets zsh as default
 
 
 
-# homebrew must haves
-brew install redis
+
+# You Complete Me install
+cd ~/.vim/bundle/YouCompleteMe
+git submodule update --init --recursive
+sh ./install.sh --clang-completer
+
 
 # Must Have GUIs
 brew cask install google-chrome

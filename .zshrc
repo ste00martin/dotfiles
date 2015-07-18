@@ -28,8 +28,7 @@ compinit
 ## Shortcuts
 alias gogo="cd ~/.go/src/github.com"
 alias gorepos="cd ~/repos/"
-alias vim="/Applications/MacVim.app/Contents/MacOS/Vim"
-alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias vi=$(which vim)
 alias gomove="cd ~/repos/moveloot_server/"
 
 setopt APPEND_HISTORY
