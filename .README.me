@@ -16,18 +16,16 @@ brew install git
 brew install ruby
 brew install qt
 brew install gpg
+brew install awscli
 
-# Setup ruby
+
+# Setup ruby by following RVM setup first, then
 gem install bundler
-
-
 
 
 # put zsh as default command shell
 echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/zsh # sets zsh as default
-
-
 
 
 # You Complete Me install
@@ -36,12 +34,12 @@ git submodule update --init --recursive
 sh ./install.sh --clang-completer
 
 
-# Must Have GUIs
+# Must Have GUI apps
 brew cask install google-chrome
 brew cask install sonos
 brew cask install iterm2
 brew cask install spectacle
-
+brew cask install dropbox
 
 brew cask install slack
 brew cask install postgresql

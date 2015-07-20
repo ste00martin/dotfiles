@@ -6,7 +6,7 @@ export PATH=$PATH:$GOROOT/bin
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
-
+source .aws_keys
 
 # Prompt
 PROMPT='%{$fg_bold[white]%} %n:%c> %{$reset_color%}'
