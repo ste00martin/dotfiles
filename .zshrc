@@ -6,6 +6,7 @@ export PATH=$PATH:$GOROOT/bin
 export PATH="/usr/local/sbin:$PATH"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+export JAVA_HOME=$(/usr/libexec/java_home)
 source .aws_keys
 
 # Prompt
@@ -30,6 +31,9 @@ alias gogo="cd ~/.go/src/github.com"
 alias gorepos="cd ~/repos/"
 alias vi=$(which vim)
 alias gomove="cd ~/repos/moveloot_server/"
+alias textur="psql -h textur-mepwknbdst.cpxmzuem2qct.us-west-2.redshift.amazonaws.com -p 5439 -U stefan textur"
+
+
 
 setopt APPEND_HISTORY
 
