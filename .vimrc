@@ -52,6 +52,8 @@ set autoindent
 set smartindent
 "set bg=dark
 
+set nocompatible
+set backspace=2
 
 
 set paste

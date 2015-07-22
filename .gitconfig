@@ -9,3 +9,5 @@
 	editor = vim
 [github]
 	user = ste00martin
+[branch]
+	autosetuprebase = always
