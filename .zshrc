@@ -35,7 +35,7 @@ alias gorepos="cd ~/repos/"
 alias vi=$(which vim)
 alias gomove="cd ~/repos/moveloot_server/"
 alias textur="psql -h textur-mepwknbdst.cpxmzuem2qct.us-west-2.redshift.amazonaws.com -p 5439 -U stefan textur"
-alias ml_prod="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@52.27.4.141"
+alias ml_prod="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@52.24.54.47"
 alias ml_sandbox="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@sandbox.moveloot.com"
 alias ml_stage="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@54.213.3.137"
 alias ml_pac="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@54.191.112.57"
@@ -49,7 +49,7 @@ setopt APPEND_HISTORY
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
-RPROMPT='%{$fg_bold[white]%}$(parse_git_branch)%{$reset_color%}'
+RPROMPT='  %{$fg_bold[white]%}$(parse_git_branch)%{$reset_color%}'
 
 
 gomove
