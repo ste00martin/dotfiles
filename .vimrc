@@ -19,7 +19,7 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
+"Plugin 'Valloric/YouCompleteMe'
 
 
 Plugin 'fatih/vim-go'
@@ -67,6 +67,9 @@ set nowritebackup  "only in case you don't want a backup file while editing
 set noswapfile     "no swap files
 
 
+" for rubocop
+let g:syntastic_ruby_checkers   = ['rubocop', 'mri']
+let g:syntastic_ruby_rubocop_exec = 'RBENV_VERSION=2.1.2 /Users/stefan/.rvm/gems/ruby-2.1.2/bin/rubocop'
 
 " For airline
 set laststatus=2
@@ -74,5 +77,6 @@ set encoding=utf-8
 let g:airline_powerline_fonts=1
 set clipboard=unnamed
 
+set sw=2
 
 syntax on
