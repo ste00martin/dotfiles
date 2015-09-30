@@ -43,12 +43,16 @@ alias ml_pac="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@54.191.1
 alias tron_prod="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@ec2-54-186-8-23.us-west-2.compute.amazonaws.com"
 alias gr='grep -Rnf /dev/stdin . <<<'
 alias gri='grep -iRnf /dev/stdin . <<<'
+alias fnd='find . | grep -i '
+
 alias psql_local='psql moveloot_server_dev'
 
 setopt APPEND_HISTORY
 
 # deep history of file and who changed what
 alias git_deep='git log --follow -p -- . <<<'
+
+
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
