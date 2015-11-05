@@ -1,5 +1,5 @@
 [push]
-	default = simple
+	default = current
 [user]
 	name = Stefan Martin
 	email = ste00martin@gmail.com

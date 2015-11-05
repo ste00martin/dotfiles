@@ -1,3 +1,4 @@
+source /usr/local/share/zsh/site-functions/_aws
 
 export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go

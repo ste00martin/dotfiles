@@ -56,16 +56,15 @@ set nocompatible
 set backspace=2
 
 
-set paste
-vmap <C-x> :!pbcopy<CR>  
-vmap <C-c> :w !pbcopy<CR><CR> 
+" copy and paste
+set clipboard=unnamed
 
+set paste
 
 " dont create swap files
 set nobackup       "no backup files
 set nowritebackup  "only in case you don't want a backup file while editing
 set noswapfile     "no swap files
-
 
 " for rubocop
 let g:syntastic_ruby_checkers   = ['rubocop', 'mri']
@@ -78,5 +77,9 @@ let g:airline_powerline_fonts=1
 set clipboard=unnamed
 
 set sw=2
+
+" remove all trailing whitespace always
+autocmd BufWritePre * :%s/\s\+$//e
+
 
 syntax on
