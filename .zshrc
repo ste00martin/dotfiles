@@ -25,6 +25,10 @@ setopt prompt_subst
 ## Show completion on first TAB
 setopt menucomplete
 
+## Autosave history
+setopt APPEND_HISTORY
+
+
 ## # Load completions for Ruby, Git, etc.
 autoload compinit
 compinit
@@ -37,7 +41,7 @@ alias vi=$(which vim)
 alias gomove="cd ~/repos/moveloot_server/"
 alias textur="psql -h textur-mepwknbdst.cpxmzuem2qct.us-west-2.redshift.amazonaws.com -p 5439 -U stefan textur"
 prod_console="cd moveloot_server && bundle exec rails c"
-alias ml_prod="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@52.24.54.47 $prod_console"
+alias ml_prod="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@52.34.147.218 $prod_console"
 alias ml_sandbox="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@sandbox.moveloot.com"
 alias ml_stage="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@52.26.225.82"
 alias ml_pac="ssh -i ~/repos/moveloot_server/keys/ml_ec2_key.pem ubuntu@54.191.112.57"

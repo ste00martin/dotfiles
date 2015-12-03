@@ -15,13 +15,12 @@ Plugin 'gmarik/Vundle.vim'
 
 
 Plugin 'tpope/vim-fugitive'
-Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
 "Plugin 'Valloric/YouCompleteMe'
-
-
+Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
 " Plugin 'ervandew/supertab'
 
@@ -45,6 +44,9 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 
+" ctags for rails
+set tags+=gems.tags
+
 set expandtab
 "set tabstop=4
 "set shiftwidth=4
@@ -59,7 +61,6 @@ set backspace=2
 " copy and paste
 set clipboard=unnamed
 
-set paste
 
 " dont create swap files
 set nobackup       "no backup files
@@ -81,5 +82,6 @@ set sw=2
 " remove all trailing whitespace always
 autocmd BufWritePre * :%s/\s\+$//e
 
-
 syntax on
+
+set paste
