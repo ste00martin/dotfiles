@@ -22,6 +22,8 @@ Plugin 'bling/vim-airline'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
+Plugin 'ConradIrwin/vim-bracketed-paste'
+
 " Plugin 'ervandew/supertab'
 
 
@@ -47,9 +49,10 @@ filetype plugin indent on    " required
 " ctags for rails
 set tags+=gems.tags
 
+set cindent
+
 set expandtab
-"set tabstop=4
-"set shiftwidth=4
+set shiftwidth=2
 set autoindent
 set smartindent
 "set bg=dark
@@ -83,5 +86,3 @@ set sw=2
 autocmd BufWritePre * :%s/\s\+$//e
 
 syntax on
-
-set paste
