@@ -53,3 +53,4 @@ function parse_git_branch {
 }
 RPROMPT='   %{$fg_bold[white]%}$(parse_git_branch)%{$reset_color%}'
 
+cd ~/repos/chipotle/chipotle-cms

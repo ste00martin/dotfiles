@@ -8,15 +8,24 @@ vim +PluginInstall +qall # install plugins from command line
 # install homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+# install rvm
+
 # homebrew must haves
 brew install caskroom/cask/brew-cask
-brew install cmake
 brew install zsh
 brew install redis
+brew install mysql
+brew install postgres
+brew install awscli
+brew install node
+npm install -g bower
+
 brew install git
-brew install ruby
-brew install qt
 brew install gpg
+brew install cmake
+
+# nice to have
+brew install qt
 brew install ewscli
 brew install ec2-api-tools
 brew install heroku
@@ -46,6 +55,7 @@ brew cask install spectacle
 brew cask install dropbox
 
 brew cask install slack
-brew cask install postgresql
+brew cask install postgres
 
-
+# install rails
+gem install rails
