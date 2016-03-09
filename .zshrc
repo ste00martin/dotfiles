@@ -32,6 +32,7 @@ compinit
 
 
 ## Shortcuts
+alias cds="cd ~/repos/chipotle/chipotle-cms/public/themes/chipotle-demo-theme"
 alias gogo="cd ~/.go/src/github.com"
 alias pullmaster="bundle && rake db:migrate"
 alias rucp="rubocop -a"
@@ -46,11 +47,13 @@ setopt APPEND_HISTORY
 
 # deep history of file and who changed what
 alias git_deep='git log --follow -p -- . <<<'
+alias git=hub
 
 
 function parse_git_branch {
   git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
 }
 RPROMPT='   %{$fg_bold[white]%}$(parse_git_branch)%{$reset_color%}'
+
 
 cd ~/repos/chipotle/chipotle-cms

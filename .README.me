@@ -11,28 +11,27 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # install rvm
 
 # homebrew must haves
-brew install caskroom/cask/brew-cask
+brew install git
+brew install hub
+brew install gpg
+brew install cmake
 brew install zsh
 brew install redis
 brew install mysql
 brew install postgres
 brew install awscli
+
 brew install node
 npm install -g bower
+npm install -g grunt-cli
 
-brew install git
-brew install gpg
-brew install cmake
-
-# nice to have
-brew install qt
-brew install ewscli
-brew install ec2-api-tools
 brew install heroku
-
-# Setup ruby by following RVM setup first, then
+gem install rails
+gem install rubocop
 gem install bundler
 
+# homebrkw nice to haves
+brew install qt
 
 # put zsh as default command shell
 echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
@@ -46,6 +45,7 @@ sh ./install.sh --clang-completer
 
 
 # Must Have GUI apps
+brew install caskroom/cask/brew-cask
 brew cask install java
 brew cask install google-chrome
 brew cask install sonos
@@ -53,9 +53,6 @@ brew cask install iterm2
 brew cask install flux
 brew cask install spectacle
 brew cask install dropbox
-
+brew cask install skype
 brew cask install slack
 brew cask install postgres
-
-# install rails
-gem install rails
