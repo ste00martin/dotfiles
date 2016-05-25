@@ -15,7 +15,6 @@ brew install git
 brew install hub
 brew install gpg
 brew install cmake
-brew install zsh
 brew install redis
 brew install mysql
 brew install postgres
@@ -34,8 +33,9 @@ gem install bundler
 brew install qt
 
 # put zsh as default command shell
-echo "/usr/local/bin/zsh" | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/zsh # sets zsh as default
+brew install zsh
+which zsh | sudo tee -a /etc/shells
+chsh -s `which zsh` # sets zsh as default
 
 
 # You Complete Me install
@@ -45,7 +45,10 @@ sh ./install.sh --clang-completer
 
 
 # Must Have GUI apps
-brew install caskroom/cask/brew-cask
+brew tap caskroom/cask
+brew tap caskroom/versions
+brew cask install sublime-text3
+
 brew cask install java
 brew cask install google-chrome
 brew cask install sonos
