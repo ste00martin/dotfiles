@@ -32,3 +32,6 @@ function parse_git_branch {
 PROMPT='%{$fg_bold[white]%} %n:%c> %{$reset_color%}'
 RPROMPT='   %{$fg_bold[white]%}$(parse_git_branch)%{$reset_color%}'
 
+cd ~/repos/fb4b-prototyping/src
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
