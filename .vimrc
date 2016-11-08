@@ -24,7 +24,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
 Plugin 'ConradIrwin/vim-bracketed-paste'
 
-" Plugin 'ervandew/supertab'
+Plugin 'ervandew/supertab'
 
 
 
@@ -55,7 +55,7 @@ set expandtab
 set shiftwidth=2
 set autoindent
 set smartindent
-"set bg=dark
+set bg=dark
 
 set nocompatible
 set backspace=2
@@ -104,5 +104,9 @@ endfunction
 
 " NB: this supports "rp that replaces the selection by the contents of @r
 vnoremap <silent> <expr> p <sid>Repl()
+
+" adds esc sequence in insert mode
+:imap ii <Esc>
+
 
 syntax on
