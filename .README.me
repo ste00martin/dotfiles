@@ -8,9 +8,12 @@ brew install zsh zsh-completions
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
 chsh -s /usr/local/bin/zsh
 
+# install custom oh-my-zsh plugins
+git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
 
-# Vundle
+
+# Vundle for Vim plugins!
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 # setup vundle
 vim +PluginInstall +qall # install plugins from command line
