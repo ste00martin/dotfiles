@@ -1,16 +1,16 @@
-# to setup on a new system:
+# to setup on a new local system:
 
-# install homebrew
+# Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-# install oh-my-zsh
-brew install zsh zsh-completions
+# Setup Zsh
 curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
-chsh -s /usr/local/bin/zsh
+brew install zsh zsh-completions
+which zsh | sudo tee -a /etc/shells
+chsh -s `which zsh`
 
-# install custom oh-my-zsh plugins
+## install custom oh-my-zsh plugins
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
 
 
 # Vundle for Vim plugins!
@@ -29,8 +29,8 @@ brew install redis
 brew install mysql
 brew install postgres
 brew install awscli
-
 brew install node
+
 npm install -g bower
 npm install -g grunt-cli
 
@@ -42,17 +42,12 @@ gem install bundler
 # homebrkw nice to haves
 brew install qt
 
-# put zsh as default command shell
-brew install zsh
-which zsh | sudo tee -a /etc/shells
-chsh -s `which zsh` # sets zsh as default
 
 
 # You Complete Me install
 cd ~/.vim/bundle/YouCompleteMe
 git submodule update --init --recursive
 sh ./install.sh --clang-completer
-
 
 # Must Have GUI apps
 brew tap caskroom/cask
@@ -66,3 +61,4 @@ brew cask install spectacle
 brew cask install dropbox
 brew cask install skype
 brew cask install postgres
+
