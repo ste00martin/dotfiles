@@ -84,11 +84,16 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 #
-#
-#
-#
+
 
 alias git=hub
 
-alias cds="cd ~/repos/chipotle/chipotle-cms/public/themes/chipotle-demo-theme"
-alias cms="cd ~/repos/chipotle/chipotle-cms"
+CMS_DIRECTORY="~/repos/chipotle/chipotle-cms"
+THEMES_DIRECTORY="public/themes"
+alias cdt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-demo-theme"
+alias cct="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-careers-theme"
+alias plt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/pizzeria-locale-theme"
+alias skt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/shophouse-kitchen-theme"
+alias cms="cd ${CMS_DIRECTORY}"
+
+
