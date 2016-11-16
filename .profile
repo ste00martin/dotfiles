@@ -18,11 +18,15 @@ alias gorepos="cd ~/repos/"
 # deep history of file and who changed what
 alias git_deep='git log --follow -p -- . <<<'
 
-CMS_DIRECTORY="~/repos/chipotle/chipotle-cms"
+GITHUB_REPO_DIRECTORY="~/repos"
+CMS_DIRECTORY="${GITHUB_REPO_DIRECTORY}/chipotle/chipotle-cms"
 THEMES_DIRECTORY="public/themes"
 alias cdt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-demo-theme"
 alias cct="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-careers-theme"
 alias plt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/pizzeria-locale-theme"
 alias skt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/shophouse-kitchen-theme"
 alias cms="cd ${CMS_DIRECTORY}"
+
+alias chevron="cd ${GITHUB_REPO_DIRECTORY}/chevron-external-sites"
+alias fb4b="cd ${GITHUB_REPO_DIRECTORY}/fb4b-prototyping"
 
