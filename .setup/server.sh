@@ -14,4 +14,5 @@ sudo apt-get install npm
 sudo apt-get install ruby
 sudo apt-get install nginx
 sudo gem install bundle
+sudo gem install breakpoint
 
