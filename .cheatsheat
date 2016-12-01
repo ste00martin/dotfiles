@@ -1,0 +1,3 @@
+
+# deleting a remote branch
+git push origin :epic-asset-pipeline-test

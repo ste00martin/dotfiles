@@ -6,6 +6,7 @@
 !.setup/*
 !.README.me
 !.gitignore
+!.cheatsheat
 !.zshrc
 !.vimrc
 !.profile
