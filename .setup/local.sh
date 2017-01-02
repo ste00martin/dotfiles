@@ -52,8 +52,8 @@ sh ./install.sh --clang-completer
 # Must Have GUI apps
 brew tap caskroom/cask
 brew tap caskroom/versions
-brew cask install sublime-text3
 
+brew cask install sublime-text3
 brew cask install java
 brew cask install iterm2
 brew cask install flux
@@ -61,4 +61,4 @@ brew cask install spectacle
 brew cask install dropbox
 brew cask install skype
 brew cask install postgres
-
+brew cask install slack
