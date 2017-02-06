@@ -17,13 +17,13 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdcommenter'
 Plugin 'bling/vim-airline'
 "Plugin 'Valloric/YouCompleteMe'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
 Plugin 'ConradIrwin/vim-bracketed-paste'
-
 Plugin 'ervandew/supertab'
 
 

@@ -87,4 +87,4 @@ source $ZSH/oh-my-zsh.sh
 
 source ~/.profile
 
-cms
+cd ~/repos/
