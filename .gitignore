@@ -4,6 +4,7 @@
 # but not these files
 !.setup
 !.setup/*
+.setup/.DS_Store
 !.README.me
 !.gitignore
 !.cheatsheat
