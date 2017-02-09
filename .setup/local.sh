@@ -62,3 +62,5 @@ brew cask install dropbox
 brew cask install skype
 brew cask install postgres
 brew cask install slack
+brew cask install spotify
+brew cask install sonos
