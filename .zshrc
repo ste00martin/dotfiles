@@ -66,3 +66,5 @@ setopt APPEND_HISTORY
 
 
 source ~/.profile
+
+cd ~/repos/Camfire/
