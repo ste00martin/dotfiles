@@ -66,12 +66,13 @@ brew cask install skype
 brew cask install postgres
 brew cask install slack
 brew cask install spotify
-brew cask install sonos
 
 
 
 # Setting up Atom
 
-apm install atom-beautify pigments react angularjs atom-beautify editorconfig linter status-bar-blame
+apm install atom-beautify
+apm install react
+apm install vim-mode-plus
 apm install atom-material-ui
 
