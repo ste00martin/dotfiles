@@ -2,6 +2,8 @@ export GOROOT=/usr/local/opt/go/libexec
 export GOPATH=$HOME/.go
 export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/Cellar/mysql@5.6/5.6.34/bin:$PATH"
+
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 #export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
 
@@ -28,12 +30,16 @@ CMS_DIRECTORY="${GITHUB_REPO_DIRECTORY}/chipotle/chipotle-cms"
 THEMES_DIRECTORY="public/themes"
 alias cms_deploy="cd ${GITHUB_REPO_DIRECTORY}/chipotle/chipotle-chef/apps/chipotle"
 alias cms="cd ${CMS_DIRECTORY}"
+alias salesforce="cd ~/repos/salesforce/"
+alias polaris="cd ~/repos/salesforce/polaris-apex"
+alias ohana="cd ~/repos/salesforce/salesforce-ohana"
 alias cdt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-demo-theme"
 alias cct="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-careers-theme"
 alias plt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/pizzeria-locale-theme"
 alias tmt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/tastymade-theme"
 alias skt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/shophouse-kitchen-theme"
 
+alias ccb="cd ${GITHUB_REPO_DIRECTORY}/chipotle-careers-blog"
 alias chevron="cd ${GITHUB_REPO_DIRECTORY}/chevron-external-sites"
 alias fb4b="cd ${GITHUB_REPO_DIRECTORY}/fb4b-prototyping"
 

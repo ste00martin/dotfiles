@@ -24,7 +24,6 @@ Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
 Plugin 'ConradIrwin/vim-bracketed-paste'
-Plugin 'ervandew/supertab'
 
 
 
@@ -51,15 +50,13 @@ set tags+=gems.tags
 
 set cindent
 
-set expandtab
-set shiftwidth=2
+set expandtab tabstop=2 shiftwidth=2 softtabstop=2
 set autoindent
 set smartindent
 set bg=dark
 
 set nocompatible
 set backspace=2
-
 
 " copy and paste
 set clipboard=unnamed

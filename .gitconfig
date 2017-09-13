@@ -11,3 +11,4 @@
 	user = ste00martin
 [branch]
 	autosetuprebase = always
+	autosetupmerge = always
