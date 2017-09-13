@@ -5,14 +5,10 @@ export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/Cellar/mysql@5.6/5.6.34/bin:$PATH"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-#export EC2_CERT="$(/bin/ls "$HOME"/.ec2/cert-*.pem | /usr/bin/head -1)"
 
 # History
 ## After each command, append to the history file and reread it
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
-
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
 ## Shortcuts for all
 alias gri='grep -iRnf /dev/stdin . <<<'
