@@ -53,6 +53,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -86,17 +87,5 @@ source $ZSH/oh-my-zsh.sh
 
 setopt APPEND_HISTORY
 
-
-alias salesforce="cd ~/repos/salesforce/"
-alias polaris="cd ~/repos/salesforce/polaris-apex"
-alias ohana="cd ~/repos/salesforce/salesforce-ohana"
-alias cdt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-demo-theme"
-alias cct="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/chipotle-careers-theme"
-alias plt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/pizzeria-locale-theme"
-alias tmt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/tastymade-theme"
-alias skt="cd ${CMS_DIRECTORY}/${THEMES_DIRECTORY}/shophouse-kitchen-theme"
-
-alias ccb="cd ${GITHUB_REPO_DIRECTORY}/chipotle-careers-blog"
-alias chevron="cd ${GITHUB_REPO_DIRECTORY}/chevron-external-sites"
-alias fb4b="cd ${GITHUB_REPO_DIRECTORY}/fb4b-prototyping"
-
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.profile

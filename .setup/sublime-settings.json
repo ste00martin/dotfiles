@@ -1,4 +1,15 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"theme": "Adaptive.sublime-theme"
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.tmTheme",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"theme": "Adaptive.sublime-theme",
+	"ensure_newline_at_eof_on_save": true,
+	"trim_trailing_white_space_on_save": true,
+	"translate_tabs_to_spaces": true,
+	"tab_size": 2,
+	"rulers": [80],
 }
+

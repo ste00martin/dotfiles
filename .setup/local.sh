@@ -37,6 +37,7 @@ brew install node
 npm install -g bower
 npm install -g grunt-cli
 
+brew install zsh-autosuggestions
 brew install heroku
 gem install rails
 gem install rubocop
