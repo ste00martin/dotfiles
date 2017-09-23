@@ -11,6 +11,10 @@ brew install zsh-autosuggestions
 which zsh | sudo tee -a /etc/shells
 chsh -s `which zsh`
 
+# Setup Sublime
+## setup babel-sublime
+https://github.com/babel/babel-sublime
+
 ## install custom oh-my-zsh plugins
 git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
 
