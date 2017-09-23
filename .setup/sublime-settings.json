@@ -1,12 +1,8 @@
 {
 	"color_scheme": "Packages/Boxy Theme/schemes/Boxy Ocean.tmTheme",
-	"font_size": 13,
+	"font_size": 14,
 	"font_face": "consolas",
 	"font_options": ["no_antialias"],
-	"ignored_packages":
-	[
-		"Vintage"
-	],
 	"theme": "Adaptive.sublime-theme",
 	"ensure_newline_at_eof_on_save": true,
 	"trim_trailing_white_space_on_save": true,
