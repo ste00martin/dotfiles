@@ -34,6 +34,7 @@ brew install awscli
 brew install node
 
 npm install -g bower
+npm install -g yarn
 npm install -g grunt-cli
 
 brew install zsh-autosuggestions
