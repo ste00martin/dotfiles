@@ -6,9 +6,8 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 # Setup Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
-
-brew install zsh zsh-completions
+brew install zsh
+brew install zsh-autosuggestions
 which zsh | sudo tee -a /etc/shells
 chsh -s `which zsh`
 
