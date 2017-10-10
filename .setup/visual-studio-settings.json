@@ -1,5 +1,6 @@
 {
     "editor.wordWrap": "on",
     "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme": "Monokai Dimmed",
+    "workbench.colorTheme": "One Dark Pro",
+    "window.zoomLevel": 1,
 }
