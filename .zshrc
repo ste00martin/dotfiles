@@ -89,3 +89,5 @@ setopt APPEND_HISTORY
 
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source ~/.profile
+
+export PATH="$HOME/.yarn/bin:$PATH"
