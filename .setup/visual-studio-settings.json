@@ -1,7 +1,10 @@
 {
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
     "editor.wordWrap": "on",
     "files.trimTrailingWhitespace": true,
     "workbench.colorTheme": "One Dark Pro",
-    "editor.tabSize": 2,
-
+    "editor.tabSize": 2
 }
