@@ -1,9 +1,9 @@
 module.exports = {
   extends: [
-    '@strv/javascript/environments/react/v15',
-    '@strv/javascript/environments/react/optional',
-    '@strv/javascript/coding-styles/recommended',
-    '@strv/javascript/coding-styles/react',
+    // '@strv/javascript/environments/react/v15',
+    // '@strv/javascript/environments/react/optional',
+    // '@strv/javascript/coding-styles/recommended',
+    // '@strv/javascript/coding-styles/react',
     // "@strv/javascript/coding-styles/flow",
     // "@strv/javascript/environments/flow/recommended"
   ],
@@ -21,5 +21,6 @@ module.exports = {
     'operator-linebreak': 0,
     'no-implicit-coercion': 0,
     'no-warning-comments': 0,
+    'semi': ["error", "never"],
   }
 }
