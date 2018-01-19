@@ -29,3 +29,10 @@ alias git_deep='git log --follow -p -- . <<<'
 GITHUB_REPO_DIRECTORY="~/repos"
 alias volta="cd ~/repos/volta/"
 alias mobile="cd ~/repos/volta/mobile/"
+
+SecretProfile=./.secret-profile
+if [ -e "$SecretProfile" ]; then
+    source $SecretProfile
+else
+    echo "Secret Profile does not exist"
+fi
