@@ -28,4 +28,4 @@ alias git_deep='git log --follow -p -- . <<<'
 
 GITHUB_REPO_DIRECTORY="~/repos"
 alias volta="cd ~/repos/volta/"
-alias app="cd ~/repos/volta/mobile/"
+alias mobile="cd ~/repos/volta/mobile/"
