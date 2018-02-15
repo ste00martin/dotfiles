@@ -9,7 +9,6 @@ export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export ANDROID_HOME="/usr/local/opt/android-sdk"
 
 # History
 ## After each command, append to the history file and reread it
