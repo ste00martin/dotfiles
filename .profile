@@ -28,6 +28,7 @@ alias git_deep='git log --follow -p -- . <<<'
 GITHUB_REPO_DIRECTORY="~/repos"
 alias volta="cd ~/repos/volta/"
 alias mobile="cd ~/repos/volta/mobile/"
+alias eslint="cd ~/repos/volta/eslint-config-volta/"
 
 SecretProfile=./.secret-profile
 if [ -e "$SecretProfile" ]; then
