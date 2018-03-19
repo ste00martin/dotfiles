@@ -61,6 +61,7 @@ sh ./install.sh --clang-completer
 brew tap caskroom/cask
 brew tap caskroom/versions
 
+brew cask install visual-studio-code
 brew cask install sublime-text3
 brew cask install java
 brew cask install iterm2
