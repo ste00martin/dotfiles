@@ -47,7 +47,7 @@ gem install rails
 gem install rubocop
 gem install bundler
 
-# homebrkw nice to haves
+# homebrew nice to haves
 brew install qt
 
 
@@ -72,13 +72,4 @@ brew cask install skype
 brew cask install postgres
 brew cask install slack
 brew cask install spotify
-
-
-
-# Setting up Atom
-
-apm install atom-beautify
-apm install react
-apm install vim-mode-plus
-apm install atom-material-ui
 
