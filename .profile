@@ -10,6 +10,9 @@ export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
 # History
 ## After each command, append to the history file and reread it
 export PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
@@ -29,6 +32,7 @@ GITHUB_REPO_DIRECTORY="~/repos"
 alias volta="cd ~/repos/volta/"
 alias mobile="cd ~/repos/volta/mobile/"
 alias eslint="cd ~/repos/volta/eslint-config-volta/"
+alias challenges="cd ~/repos/volta/code-challenge-responses/"
 
 SecretProfile=./.secret-profile
 if [ -e "$SecretProfile" ]; then
