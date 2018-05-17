@@ -28,15 +28,16 @@ alias gorepos="cd ~/repos/"
 # deep history of file and who changed what
 alias git_deep='git log --follow -p -- . <<<'
 
-GITHUB_REPO_DIRECTORY="~/repos"
-alias volta="cd ~/repos/volta/"
-alias mobile="cd ~/repos/volta/mobile/"
-alias eslint="cd ~/repos/volta/eslint-config-volta/"
-alias challenges="cd ~/repos/volta/code-challenge-responses/"
+VOLTA_DIRECTORY="~/repos/volta"
+alias volta="cd ${VOLTA_DIRECTORY}"
+alias lambda="cd ${VOLTA_DIRECTORY}/lambda"
+alias mobile="cd ${VOLTA_DIRECTORY}/mobile"
+alias eslint="cd ${VOLTA_DIRECTORY}/eslint-config-volta"
+alias challenges="cd ${VOLTA_DIRECTORY}/code-challenge-responses/"
 
-SecretProfile=./.secret-profile
+SecretProfile=~/.secret-profile
 if [ -e "$SecretProfile" ]; then
     source $SecretProfile
 else
-    echo "Secret Profile does not exist"
+    echo "your super secret profile does not exist"
 fi
