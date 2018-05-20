@@ -1,3 +1,4 @@
+#!/bin/sh
 # Assuming it's a ubuntu box
 
 ## Add you public key to the authorized_keys list

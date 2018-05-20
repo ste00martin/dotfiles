@@ -1,4 +1,7 @@
+#!/bin/sh
 # to setup on a new local system:
+
+git config --global core.ignorecase false
 
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
