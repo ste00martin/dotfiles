@@ -4,6 +4,8 @@ export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/Cellar/mysql@5.6/5.6.34/bin:$PATH"
 
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
@@ -35,9 +37,10 @@ alias mobile="cd ${VOLTA_DIRECTORY}/mobile"
 alias eslint="cd ${VOLTA_DIRECTORY}/eslint-config-volta"
 alias challenges="cd ${VOLTA_DIRECTORY}/code-challenge-responses/"
 
-SecretProfile=~/.secret-profile
+SecretProfile=~/Documents/secret-profile
 if [ -e "$SecretProfile" ]; then
     source $SecretProfile
 else
     echo "your super secret profile does not exist"
 fi
+

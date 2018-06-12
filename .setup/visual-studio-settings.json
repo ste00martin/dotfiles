@@ -12,7 +12,5 @@
   "eslint.run": "onType",
   "files.autoSave": "onFocusChange",
   "files.trimTrailingWhitespace": true,
-  "sublimeTextKeymap.promptV3Features": true,
-  "window.zoomLevel": 0,
-  "workbench.colorTheme": "One Dark Pro"
+  "sublimeTextKeymap.promptV3Features": true
 }
