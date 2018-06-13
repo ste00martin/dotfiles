@@ -37,7 +37,7 @@ alias mobile="cd ${VOLTA_DIRECTORY}/mobile"
 alias eslint="cd ${VOLTA_DIRECTORY}/eslint-config-volta"
 alias challenges="cd ${VOLTA_DIRECTORY}/code-challenge-responses/"
 
-SecretProfile=~/Documents/.secret-profile.sh
+SecretProfile=~/Documents/secret-profile.sh
 if [ -e "$SecretProfile" ]; then
     source $SecretProfile
 else
