@@ -38,7 +38,7 @@ alias git_deep='git log --follow -p -- . <<<'
 alias scripting="cd ${REPOS}/scripting"
 
 VOLTA_DIRECTORY="${REPOS}/volta"
-alias volta="cd ${VOLTA_DIRECTORY}"
+alias volt="cd ${VOLTA_DIRECTORY}"
 alias lambda="cd ${VOLTA_DIRECTORY}/cloud/lambda"
 alias mobile="cd ${VOLTA_DIRECTORY}/mobile"
 alias volta_lint="cd ${VOLTA_DIRECTORY}/eslint-config-volta"
