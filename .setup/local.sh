@@ -1,7 +1,6 @@
 #!/bin/sh
 # to setup on a new local system:
 
-
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
@@ -36,9 +35,10 @@ brew install postgres
 brew install awscli
 brew install heroku
 
-# Node version manager install
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-nvm install 8.0
+# Install NVM
+https://github.com/creationix/nvm/blob/master/README.md
+nvm install 10
+nvm alias default 10
 
 npm install -g bower
 npm install -g yarn
