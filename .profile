@@ -30,6 +30,8 @@ alias gr='grep -Rnf /dev/stdin . <<<'
 alias ocp="rubocop -a"
 alias fnd='find . | grep -i '
 alias vi=$(which vim)
+alias bfg='java -jar ~/.setup/bfg.jar'
+
 REPOS="~/repos"
 
 # deep history of file and who changed what
@@ -51,3 +53,6 @@ else
     echo "your super secret profile does not exist"
 fi
 
+
+# added by Snowflake SnowSQL installer v1.0
+export PATH=/Applications/SnowSQL.app/Contents/MacOS:$PATH

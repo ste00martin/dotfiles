@@ -20,6 +20,11 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 vim +PluginInstall +qall # install plugins from command line
 
+# BFG
+https://rtyley.github.io/bfg-repo-cleaner/
+# save jar to .setup folder
+mv ~/Downloads/bfg.jar ~/.setup/
+
 # Ruby installs
 gem install rails
 gem install rubocop

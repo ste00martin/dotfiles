@@ -13,3 +13,6 @@
 !.profile
 !.bashrc
 !.eslintrc.js
+
+# but do ignore these
+.setup/bfg.jar
