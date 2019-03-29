@@ -8,6 +8,8 @@ brew install git python wget zsh vim ruby
 
 # Setup Git
 git config --global core.ignorecase false
+git config --global push.default current
+git config --global branch.autoSetupMerge always
 
 # Setup Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"

@@ -12,6 +12,6 @@
 	user = ste00martin
 [branch]
 	autosetuprebase = always
-	autosetupmerge = always
+	autoSetupMerge = always
 [alias]
 	cleanup = "!git branch --merged | grep  -v '\\*\\|master\\|develop' | xargs -n 1 git branch -d"
