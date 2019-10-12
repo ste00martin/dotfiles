@@ -33,14 +33,8 @@ gem install rubocop
 gem install bundler
 
 # homebrew must haves
-brew install hub
-brew install gpg
-brew install cmake
-brew install redis
-brew install mysql
-brew install postgres
-brew install awscli
-brew install heroku
+
+brew install hub gpg cmake redis mysql postgres awscli heroku
 
 # Install NVM
 https://github.com/creationix/nvm/blob/master/README.md
@@ -60,4 +54,4 @@ sh ./install.sh --clang-completer
 brew tap caskroom/cask
 brew tap caskroom/versions
 
-brew cask install visual-studio-code java iterm2 spectacle postgres slack
+brew cask install visual-studio-code java iterm2 spectacle postgres slack dbeaver-community
