@@ -39,6 +39,9 @@ alias git_deep='git log --follow -p -- . <<<'
 
 alias scripting="cd ${REPOS}/scripting"
 
+alias git_branch_del='git branch | grep -v "master" | xargs git branch -D'
+
+
 VOLTA_DIRECTORY="${REPOS}/volta"
 alias volt="cd ${VOLTA_DIRECTORY}"
 alias lambda="cd ${VOLTA_DIRECTORY}/cloud/lambda"
