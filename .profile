@@ -4,13 +4,13 @@ export PATH=$PATH:$GOPATH/bin:$GOROOT/bin
 export PATH="/usr/local/sbin:$PATH"
 export PATH="/usr/local/Cellar/mysql@5.6/5.6.34/bin:$PATH"
 export PATH="/usr/bin/python:$PATH"
+export PATH="/usr/local/opt/ruby/bin:$PATH"
 USER_BASE_PATH=$(python -m site --user-base)
 export PATH=$PATH:$USER_BASE_PATH/bin
 
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 
 # export ANDROID_HOME=/Users/stefan-work/Library/Android/sdk
-
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
