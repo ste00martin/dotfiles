@@ -4,7 +4,9 @@
 # Install Homebrew
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-brew install git python wget zsh vim ruby
+brew install git python wget zsh vim rbenv
+
+rbenv install 2.2.4
 
 # Setup Git
 git config --global core.ignorecase false
