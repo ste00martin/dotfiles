@@ -8,7 +8,7 @@ export PATH="/usr/local/opt/ruby/bin:$PATH"
 USER_BASE_PATH=$(python -m site --user-base)
 export PATH=$PATH:$USER_BASE_PATH/bin
 
-export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+export JAVA_HOME=$(/usr/libexec/java_home)
 
 # export ANDROID_HOME=/Users/stefan-work/Library/Android/sdk
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -63,3 +63,5 @@ export NVM_DIR="$HOME/.nvm"
 
 # added by Snowflake SnowSQL installer v1.0
 export PATH=/Applications/SnowSQL.app/Contents/MacOS:$PATH
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
