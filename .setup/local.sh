@@ -36,10 +36,10 @@ gem install bundler
 
 # homebrew must haves
 
-brew install hub gpg cmake redis mysql postgres awscli heroku
+brew install hub gpg cmake redis mysql postgres awscli
 
 # Install NVM
-https://github.com/creationix/nvm/blob/master/README.md
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 nvm install 10
 nvm alias default 10
 
@@ -53,7 +53,6 @@ git submodule update --init --recursive
 sh ./install.sh --clang-completer
 
 # Must Have GUI apps
-brew tap caskroom/cask
-brew tap caskroom/versions
+brew tap homebrew/cask-cask
 
 brew cask install visual-studio-code java iterm2 spectacle postgres slack dbeaver-community
