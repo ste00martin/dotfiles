@@ -19,6 +19,7 @@ brew install vim
 brew install wget 
 brew install yarn
 brew install zsh 
+brew install watchman
 
 
 # Must Have GUI apps
