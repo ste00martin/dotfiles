@@ -7,18 +7,18 @@ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/
 
 # homebrew must haves
 brew install awscli
-brew install cmake 
-brew install git 
-brew install gpg 
+brew install cmake
+brew install git
+brew install gpg
 brew install hub
-brew install mysql 
+brew install mysql
 brew install postgres
-brew install python 
+brew install python
 brew install redis
 brew install vim
-brew install wget 
+brew install wget
 brew install yarn
-brew install zsh 
+brew install zsh
 brew install watchman
 
 
@@ -33,8 +33,12 @@ brew cask install java
 brew cask install android-studio
 # open app, go through setup
 
-brew cask install spectacle 
-brew cask install postgres
+brew cask install spectacle
 brew cask install dbeaver-community
 brew cask install visual-studio-code
 brew cask install iterm2
+brew cask install stretchly
+brew cask install postman
+
+
+brew cask install postgres

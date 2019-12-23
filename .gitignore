@@ -13,6 +13,6 @@
 !.profile
 !.bashrc
 !.eslintrc.js
-
+!.vscode
 # but do ignore these
 .setup/bfg.jar
