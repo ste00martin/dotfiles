@@ -34,14 +34,12 @@ brew cask install stretchly
 brew cask install iterm2
 brew cask install visual-studio-code
 
+# Mobile development
 brew cask install java
-# fill in password
-
 brew cask install android-studio
-# open app, go through setup
 
+# nice apps for lesiure
 brew cask install dbeaver-community
 brew cask install postman
-
-
 brew cask install postgres
+brew cask install spotify
