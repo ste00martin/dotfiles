@@ -27,17 +27,20 @@ brew install watchman
 brew tap homebrew/cask-cask
 brew tap caskroom/versions
 
+# Work Smart.
+brew cask install spectacle
+brew cask install flux
+brew cask install stretchly
+brew cask install iterm2
+brew cask install visual-studio-code
+
 brew cask install java
 # fill in password
 
 brew cask install android-studio
 # open app, go through setup
 
-brew cask install spectacle
 brew cask install dbeaver-community
-brew cask install visual-studio-code
-brew cask install iterm2
-brew cask install stretchly
 brew cask install postman
 
 
