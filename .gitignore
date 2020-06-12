@@ -14,7 +14,9 @@
 !.bashrc
 !.eslintrc.js
 !.vscode/*
+!.volta
 
 # but do ignore these
 .setup/bfg.jar
 .vscode/extensions
+

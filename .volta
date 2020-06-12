@@ -1,0 +1,4 @@
+#!/bin/sh
+
+alias acp="aws cloudformation package --template-file template.yaml --output-template-file packaged-template.yaml --s3-bucket $AWS_S3_LAMBDA_BUCKET"
+alias acd="aws cloudformation deploy --template-file packaged-template.yaml --capabilities CAPABILITY_IAM"
