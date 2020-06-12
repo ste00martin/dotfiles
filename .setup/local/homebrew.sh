@@ -20,7 +20,7 @@ brew install wget
 brew install yarn
 brew install zsh
 brew install watchman
-
+brew install direnv
 
 # Must Have GUI apps
 # Note: do each one step wise, these get finnicky and usually require passwords

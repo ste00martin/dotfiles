@@ -93,3 +93,5 @@ source ~/.profile
 export PATH="$HOME/.yarn/bin:$PATH"
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+eval "$(direnv hook zsh)"
