@@ -46,13 +46,6 @@ alias mobile="cd ${VOLTA_DIRECTORY}/mobile"
 alias volta_lint="cd ${VOLTA_DIRECTORY}/eslint-config-volta"
 alias challenges="cd ${VOLTA_DIRECTORY}/code-challenge-responses/"
 
-SecretProfile=~/.volta.sh
-if [ -e "$SecretProfile" ]; then
-    source $SecretProfile
-else
-    echo "your super secret profile does not exist"
-fi
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
