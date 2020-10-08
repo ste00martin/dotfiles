@@ -15,6 +15,7 @@
 !.eslintrc.js
 !.vscode/*
 !.volta
+!.p10k.zsh
 
 # but do ignore these
 .setup/bfg.jar
