@@ -7,8 +7,10 @@ export PATH="/usr/bin/python:$PATH"
 export PATH="/usr/local/opt/ruby/bin:$PATH"
 USER_BASE_PATH=$(python -m site --user-base)
 export PATH=$PATH:$USER_BASE_PATH/bin
+export S3_BUCKET_CLOUDFORMATION="volta-cloudformation-integration"
+export S3_BUCKET_OPENAPI="volta-openapi-integration"
 
-export JAVA_HOME=$(/usr/libexec/java_home)
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_281.jdk/Contents/Home
 
 # export ANDROID_HOME=/Users/stefan-work/Library/Android/sdk
 export ANDROID_HOME=$HOME/Library/Android/sdk
@@ -37,7 +39,7 @@ alias git_deep='git log --follow -p -- . <<<'
 
 alias scripting="cd ${REPOS}/scripting"
 
-alias git_branch_del='git branch | grep -v "master" | xargs git branch -D'
+alias git_local_wipe='git branch | grep -v "master" | xargs git branch -D'
 
 VOLTA_DIRECTORY="${REPOS}/volta"
 alias volt="cd ${VOLTA_DIRECTORY}"
